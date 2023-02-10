@@ -1,0 +1,7 @@
+<div class="container">
+  <div *ngIf="task">
+    <h3 >{{task.text}} <fa-icon [icon]="faTimes" [ngStyle]="{color:'red'}"></fa-icon></h3>
+    <p>{{task.day}}</p>
+  </div>
+
+</div>
